@@ -9,8 +9,8 @@ namespace bulme_swnw_producer_consumer
 {
     internal class RingBuffer<T>
     {
-        private long _begin;
-        private long _end;
+        private long _begin; // Erstes Element das ausgelesen wird
+        private long _end; // Element eins nach (!) dem zuletzt hinzugefügten
 
         private T[] _data;
 

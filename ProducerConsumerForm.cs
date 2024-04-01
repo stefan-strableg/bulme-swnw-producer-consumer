@@ -20,7 +20,7 @@ namespace bulme_swnw_producer_consumer
             progressBar_buffer.Value = 0;
 
             producer.Start();
-            Thread.Sleep(500);
+            Thread.Sleep(500); // Damit producer und consumer verzögert arbeiten (rein ästhetisch)
             consumer.Start();
         }
 
@@ -34,7 +34,7 @@ namespace bulme_swnw_producer_consumer
                         buffer.Put(0);
                 }
                 updateProgressBar();
-                Thread.Sleep(1000 / (int)numericUpDown_producer.Value);
+                Thread.Sleep(1000 / (int)numericUpDown_producer.Value); // Evtl. Division by zero
             }
         }
 
@@ -46,27 +46,28 @@ namespace bulme_swnw_producer_consumer
                 {
                     if (!buffer.isEmpty())
                     {
-                        buffer.Get();
+                        buffer.Get(); // Gelesener Wert wird verworfen, könnte hier verarbeitet werden
                     }
                 }
                 updateProgressBar();
-                Thread.Sleep(1000 / (int)numericUpDown_consumer.Value);
+                Thread.Sleep(1000 / (int)numericUpDown_consumer.Value); // Evtl. Division by zero
             }
         }
 
         private void updateProgressBar()
         {
-            if (InvokeRequired)
-                Invoke(new Action(updateProgressBar));
-            else lock (buffer)
-                {
-                    progressBar_buffer.Value = (int)buffer.Length();
-                    label_buffer.Text = buffer.Length() + "/" + buffer.Capacity();
-                    if (buffer.isFull())
-                        label_buffer.Text += " (full)";
-                    else if (buffer.isEmpty())
-                        label_buffer.Text += " (empty)";
-                }
+            if (InvokeRequired) // Wenn die Methode nicht am UI-Thread aufgerufen wird
+                Invoke(new Action(updateProgressBar)); // Dann rufe sie am UI-Thread auf
+            else 
+                lock (buffer)
+                    {
+                        progressBar_buffer.Value = (int)buffer.Length();
+                        label_buffer.Text = buffer.Length() + "/" + buffer.Capacity();
+                        if (buffer.isFull())
+                            label_buffer.Text += " (full)";
+                        else if (buffer.isEmpty())
+                            label_buffer.Text += " (empty)";
+                    }
         }
     }
 }
