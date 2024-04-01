@@ -1,0 +1,17 @@
+C:\repos\bulme-swnw-producer-consumer\bulme-swnw-producer-consumer\bin\Debug\net7.0-windows\bulme-swnw-producer-consumer.exe
+C:\repos\bulme-swnw-producer-consumer\bulme-swnw-producer-consumer\bin\Debug\net7.0-windows\bulme-swnw-producer-consumer.deps.json
+C:\repos\bulme-swnw-producer-consumer\bulme-swnw-producer-consumer\bin\Debug\net7.0-windows\bulme-swnw-producer-consumer.runtimeconfig.json
+C:\repos\bulme-swnw-producer-consumer\bulme-swnw-producer-consumer\bin\Debug\net7.0-windows\bulme-swnw-producer-consumer.dll
+C:\repos\bulme-swnw-producer-consumer\bulme-swnw-producer-consumer\bin\Debug\net7.0-windows\bulme-swnw-producer-consumer.pdb
+C:\repos\bulme-swnw-producer-consumer\bulme-swnw-producer-consumer\obj\Debug\net7.0-windows\bulme-swnw-producer-consumer.csproj.AssemblyReference.cache
+C:\repos\bulme-swnw-producer-consumer\bulme-swnw-producer-consumer\obj\Debug\net7.0-windows\bulme-swnw-producer-consumer.csproj.GenerateResource.cache
+C:\repos\bulme-swnw-producer-consumer\bulme-swnw-producer-consumer\obj\Debug\net7.0-windows\bulme-swnw-producer-consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\bulme-swnw-producer-consumer\bulme-swnw-producer-consumer\obj\Debug\net7.0-windows\bulme-swnw-producer-consumer.AssemblyInfoInputs.cache
+C:\repos\bulme-swnw-producer-consumer\bulme-swnw-producer-consumer\obj\Debug\net7.0-windows\bulme-swnw-producer-consumer.AssemblyInfo.cs
+C:\repos\bulme-swnw-producer-consumer\bulme-swnw-producer-consumer\obj\Debug\net7.0-windows\bulme-swnw-producer-consumer.csproj.CoreCompileInputs.cache
+C:\repos\bulme-swnw-producer-consumer\bulme-swnw-producer-consumer\obj\Debug\net7.0-windows\bulme-swnw-producer-consumer.dll
+C:\repos\bulme-swnw-producer-consumer\bulme-swnw-producer-consumer\obj\Debug\net7.0-windows\refint\bulme-swnw-producer-consumer.dll
+C:\repos\bulme-swnw-producer-consumer\bulme-swnw-producer-consumer\obj\Debug\net7.0-windows\bulme-swnw-producer-consumer.pdb
+C:\repos\bulme-swnw-producer-consumer\bulme-swnw-producer-consumer\obj\Debug\net7.0-windows\bulme-swnw-producer-consumer.genruntimeconfig.cache
+C:\repos\bulme-swnw-producer-consumer\bulme-swnw-producer-consumer\obj\Debug\net7.0-windows\ref\bulme-swnw-producer-consumer.dll
+C:\repos\bulme-swnw-producer-consumer\bulme-swnw-producer-consumer\obj\Debug\net7.0-windows\bulme_swnw_producer_consumer.ProducerConsumerForm.resources
